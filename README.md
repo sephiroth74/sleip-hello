@@ -13,3 +13,5 @@ Say Hello, shows a notice at the top of the window.
 
 `sleip check` checks it, `sleip test` runs its tests, and `sleip dev` links
 it into Lokyr, which reloads it at each save.
+
+Version 0.1.1 changes nothing but its version, so that the registry merges it by itself, as it asks for nothing new.
