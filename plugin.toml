@@ -1,0 +1,16 @@
+[plugin]
+name = "sephiroth74/hello"
+version = "0.1.0"
+kind = "luau"
+api = "^0.1"
+license = "MIT"
+description = "The registry's plugin of its tests: its command, Say Hello, shows a notice."
+repository = "https://github.com/sephiroth74/sleip-hello"
+
+# It activates as its command first runs, which the menus and the palette
+# show before.
+[activation]
+on = ["command:hello.say"]
+
+[contributes]
+commands = [{ name = "hello.say", title = "Say Hello", category = "view" }]
