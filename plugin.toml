@@ -1,6 +1,6 @@
 [plugin]
 name = "sephiroth74/hello"
-version = "0.1.9"
+version = "0.1.10"
 kind = "luau"
 api = "^0.1"
 license = "MIT"
