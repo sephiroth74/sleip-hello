@@ -1,6 +1,6 @@
 [plugin]
 name = "sephiroth74/hello"
-version = "0.1.4"
+version = "0.1.5"
 kind = "luau"
 api = "^0.1"
 license = "MIT"
@@ -17,3 +17,4 @@ commands = [{ name = "hello.say", title = "Say Hello", category = "view" }]
 
 [capabilities]
 clipboard-write = true
+clipboard-read = true
